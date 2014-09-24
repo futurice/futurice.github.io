@@ -1,0 +1,1 @@
+Facegame is a simple game made for learning the faces and names of fellow employees. The game will give you a picture of an employee and you have to select the corresponding name from a few choices. Essentially Facegame is a great game for all kinds of organizations where it’s becoming increasingly harder to get to know your colleagues.

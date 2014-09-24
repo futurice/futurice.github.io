@@ -1,0 +1,29 @@
+# Site settings
+title: Futurice OSS
+github_username: Futurice
+twitter_username: Futurice
+description: Open source contributions by <a href="http://www.futurice.com">Futurice</a>
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+
+# Futurice projects
+projects:
+  - title: Facegame
+    github_repo_name: facegame
+    description: facegame.md
+    screenshot: http://blog.futurice.com/wp-content/uploads/2014/06/image001.jpg
+  - title: Reservator
+    github_repo_name: meeting-room-tablet
+    description: reservator.md
+    screenshot: http://i.imgur.com/xd1xi09.jpg
+  - title: VPN Management
+    github_repo_name: vpn-management-server
+    description: vpn-management.md
+    screenshot: http://blog.futurice.com/wp-content/uploads/2014/08/form-screenshot.png
+  - title: FUM
+    github_repo_name: futurice-ldap-user-manager
+    description: fum.md
+    screenshot: http://blog.futurice.com/wp-content/uploads/2014/09/Screenshot-2014-09-02-12.37.18.png

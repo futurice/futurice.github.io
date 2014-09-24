@@ -1,0 +1,1 @@
+FUM is an user management system for LDAP. FUM makes it easy to handle information about your employees, their projects and servers they have access to. LDAP is a good protocol for user management, but it needs an user-friendly layer on top of it. One of the strengths of FUM is that it gives the users a lot of freedom over their data.
