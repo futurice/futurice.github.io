@@ -14,7 +14,9 @@ layout: default
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#Projects">Projects</a></li>
+        {% for c in site.projects %}
+        <li><a href="#{{c.category_name}}">{{c.category_name}}</a></li>
+        {% endfor %}
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://www.spiceprogram.org">Spice Program</a></li>
@@ -23,9 +25,10 @@ layout: default
   </div>
 </nav>
 
-<h2 class="category" id="Projects">Projects</h2>
+{% for category in site.projects %}
+  <h2 class="category" id="{{category.category_name}}">{{category.category_name}}</h2>
 
-{% for project in site.projects %}
+{% for project in category.contains %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   <div class="row row-no-padding project">
   {% if thecycle == 'odd' %}
@@ -69,4 +72,5 @@ layout: default
         </div>
       {% endif %}
   </div>
+{% endfor %}
 {% endfor %}
