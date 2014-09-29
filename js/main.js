@@ -11,12 +11,12 @@ $(document).ready(function () {
 
 	// Add enough space on the bottom when clicking read more.
 	$('.read-more').on('click', function() {
-		$('.description').css('padding-bottom', '80px');
+		$('.description').css('padding-bottom', '70px');
 	});
 
 	// Remove additional space from the bottom.
 	$('.read-less').on('click', function() {
-		$('.description').css('padding-bottom', '40px');
+		$('.description').css('padding-bottom', '30px');
 	});
 
 

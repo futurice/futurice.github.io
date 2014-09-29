@@ -39,9 +39,7 @@ layout: default
       {% capture description %}{% include {{project.description}} %}{% endcapture %}
       <div class="description wordwrap">{{ description | markdownify }}</div>
         <div class="info-bottom">
-          <a href="https://github.com/futurice-oss/{{project.github_repo_name}}">
-            <button type="button" class="button"><span class="buttontext">Source</span><span class="mega-octicon octicon-mark-github" id="github-logo"></span></button>
-          </a>
+          <a href="https://github.com/futurice-oss/{{project.github_repo_name}}" class="btn btn-primary" role="button"><span class="buttontext">Source</span><span class="mega-octicon octicon-mark-github" id="github-logo"></span></a>
           <span class="github-info first-icon" id="stars_{{project.github_repo_name}}"></span>
           <span class="mega-octicon octicon-star github-icon" id="icon_stars_{{project.github_repo_name}}"></span>
           <span class="github-info" id="forks_{{project.github_repo_name}}"></span>
