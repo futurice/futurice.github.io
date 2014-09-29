@@ -1,7 +1,24 @@
 ---
 ---
 
+// Default slicepoint for expander.
+$.expander.defaults.slicePoint = 550;
+
 $(document).ready(function () {
+
+	// Add jquery.expander functionality to the descriptions.
+	$('.description').expander();
+
+	// Add enough space on the bottom when clicking read more.
+	$('.read-more').on('click', function() {
+		$('.description').css('padding-bottom', '80px');
+	});
+
+	// Remove additional space from the bottom.
+	$('.read-less').on('click', function() {
+		$('.description').css('padding-bottom', '40px');
+	});
+
 
 	{% for category in site.projects %}
 	{% for project in category.contains %}
