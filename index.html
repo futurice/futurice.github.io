@@ -29,9 +29,7 @@ layout: default
   <h2 class="category" id="{{category.category_name}}">{{category.category_name}}</h2>
 
 {% for project in category.contains %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   <div class="row row-no-padding project">
-  {% if thecycle == 'odd' %}
     <div class="col-xs-12 col-md-4 screenshot nopadding">
       <img src="{{project.screenshot}}" class="img-responsive screenshot" />
     </div>
@@ -50,27 +48,6 @@ layout: default
           <span class="mega-octicon octicon-repo-forked github-icon" id="icon_forks_{{project.github_repo_name}}"></span>
         </div>
     </div>
-    {% endif %}
-    {% if thecycle == 'even' %}
-      <div class="col-xs-12 col-md-8 info nopadding">
-        <h1 class="title">{{project.title}}</h1>
-
-        {% capture description %}{% include {{project.description}} %}{% endcapture %}
-        <div class="description wordwrap">{{ description | markdownify }}</div>
-          <div class="info-bottom">
-            <a href="https://github.com/futurice-oss/{{project.github_repo_name}}">
-              <button type="button" class="button"><span class="buttontext">Source</span><span class="mega-octicon octicon-mark-github" id="github-logo"></span></button>
-            </a>
-            <span class="github-info first-icon" id="stars_{{project.github_repo_name}}"></span>
-            <span class="mega-octicon octicon-star github-icon" id="icon_stars_{{project.github_repo_name}}"></span>
-            <span class="github-info" id="forks_{{project.github_repo_name}}"></span>
-            <span class="mega-octicon octicon-repo-forked github-icon" id="icon_forks_{{project.github_repo_name}}"></span>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-4 screenshot nopadding">
-          <img src="{{project.screenshot}}" class="img-responsive screenshot"/>
-        </div>
-      {% endif %}
   </div>
 {% endfor %}
 {% endfor %}
