@@ -25,6 +25,16 @@ layout: default
   </div>
 </nav>
 
+<div class="container fullwidth-cont header">
+  <div class="row introduction">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+      <p class="header-text">We are a software house, so we work with and produce a lot of software. We have a coordinated effort to open source as much of it as possible, as well as to contribute to the OSS projects we benefit from. This page lists some highlights of our work. Check out <a href="http://www.spiceprogram.org">http://www.spiceprogram.org</a> to learn more about our OSS activities and culture.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container projects">
 {% for category in site.projects %}
   <h2 class="category" id="{{category.category_name}}">{{category.category_name}}</h2>
 
@@ -49,3 +59,4 @@ layout: default
   </div>
 {% endfor %}
 {% endfor %}
+</div>

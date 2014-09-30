@@ -11,7 +11,7 @@ sass:
 
 # Futurice projects
 projects:
-  - category_name: Internal support systems
+  - category_name: Projects
     contains:
       - title: Facegame
         github_repo_name: facegame
