@@ -115,3 +115,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 28)
+  json
