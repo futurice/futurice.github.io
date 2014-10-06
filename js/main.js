@@ -2,7 +2,7 @@
 ---
 
 // Default slicepoint for expander.
-$.expander.defaults.slicePoint = 550;
+$.expander.defaults.slicePoint = 500;
 
 $(document).ready(function () {
 
@@ -24,7 +24,7 @@ $(document).ready(function () {
 	{% for project in category.contains %}
 	
 	// Get information about the repository from Github
-	var repouri = "https://api.github.com/repos/futurice-oss/{{project.github_repo_name}}";
+	var repouri = "https://api.github.com/repos/futurice/{{project.github_repo_name}}";
 			
 	$.ajax({
 		type: "GET",

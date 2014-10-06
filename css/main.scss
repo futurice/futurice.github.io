@@ -55,7 +55,6 @@ $on-laptop:        800px;
     }
 }
 
-
 body{
 	background-color: $background-color !important;
 }
@@ -63,13 +62,6 @@ body{
 .category {
 	color: #BBBBBB;
 	margin-bottom: 40px;
-}
-
-.row-no-padding {
-  [class*="col-"] {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
 }
 
 .button {
@@ -108,14 +100,11 @@ body{
 
 	.screenshot {
 		height: 300px;
-
 	}
 
 	.info {
 		min-height: 300px;
-		max-height: 100%;
 		background-color: #fff;
-
 		box-shadow: 0px 0px 2px #DDDDDD;
 		overflow: hidden;
 	}
