@@ -29,3 +29,7 @@ projects:
         github_repo_name: futurice-ldap-user-manager
         description: fum.md
         screenshot: http://blog.futurice.com/wp-content/uploads/2014/09/Screenshot-2014-09-02-12.37.18.png
+      - title: SUPER
+        github_repo_name: futurice-super
+        description: super.md
+        screenshot: https://raw.githubusercontent.com/futurice/futurice-super/0dca6deb7cab00c32512772c8b63014105b65ba8/images/screenshot1.png
