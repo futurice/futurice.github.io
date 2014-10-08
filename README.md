@@ -3,7 +3,7 @@ Source for futurice.github.io
 Adding a new project
 --------------------
 
-This site is for highlighting open source projects made by [Futurice](http://www.futurice.com). Before adding a project make sure that it's well documented and maintained by someone.
+This site is for highlighting open source contributions by [Futurice](http://www.futurice.com). Before adding a project make sure that it's well documented and maintained by someone.
 
 #### Steps for adding a project:
 
@@ -18,3 +18,15 @@ A project has 4 properties:
 - screenshot => Link to a screenshot of your project (optional).
 
 **NOTE:** Please use pull requests.
+
+Running the site locally
+------------------------
+
+Install [Bundler](http://bundler.io/):  
+`gem install bundler`
+
+Install dependencies with Bundler:  
+`bundle install`
+
+Run the site locally:  
+`bundle exec jekyll serve`
