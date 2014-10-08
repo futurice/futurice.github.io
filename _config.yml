@@ -32,4 +32,4 @@ projects:
       - title: SUPER
         github_repo_name: futurice-super
         description: super.md
-        screenshot: https://github.com/futurice/futurice-super/blob/0dca6deb7cab00c32512772c8b63014105b65ba8/images/screenshot1.png
+        screenshot: https://raw.githubusercontent.com/futurice/futurice-super/0dca6deb7cab00c32512772c8b63014105b65ba8/images/screenshot1.png
