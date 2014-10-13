@@ -1,7 +1,5 @@
 # Site settings
 title: Futurice OSS
-twitter_username: Futurice
-description: Open source contributions by <a href="http://www.futurice.com">Futurice</a>
 
 # Build settings
 markdown: kramdown

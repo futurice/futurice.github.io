@@ -50,7 +50,7 @@ $on-laptop:        800px;
 
 
 @media (max-width: 768px) {
-    .col-xs-12 {
+    .col-md-8 {
         margin-top:20px;
     }
 }
@@ -62,25 +62,6 @@ body{
 .category {
 	color: #BBBBBB;
 	margin-bottom: 40px;
-}
-
-.button {
-	width: 10em;
-	height: 4em;
-	border-radius: 4px;
-	background-color: #4c9018;
-	color: #fff;
-	border-color: #4c9018;
-
-	.buttontext {
-		vertical-align: middle;
-		position: relative;
-		font-size: 16px;
-	}
-
-	&:hover {
-		background-color: #3b8007;
-	}
 }
 
 .wordwrap { 
@@ -147,10 +128,6 @@ body{
 	}
 }
 
-.navbar-brand {
-	color: #4c9018 !important;
-}
-
 #github-logo {
 	padding-left: 10px;
 }
@@ -186,6 +163,12 @@ body{
 	&:hover {
 		background-color: #3b8007 !important;
 	}
+
+	.btntext {
+		height: 32px;
+		line-height: 32px;
+		vertical-align: bottom;
+	}
 }
 
 .header {
@@ -209,6 +192,11 @@ body{
 		line-height: 1.3em;
 		display: inline-block;
 		vertical-align: middle;
+	}
+
+	.header-title {
+		margin-bottom: 30px;
+		color: #4c9018;
 	}
 }
 
