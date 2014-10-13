@@ -1,4 +1,4 @@
-Source for futurice.github.io
+Source for [futurice.github.io](http://futurice.github.io).
 
 Adding a new project
 --------------------
