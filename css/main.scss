@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -173,7 +173,8 @@ body{
 
 .header {
 	background-color: #fff;
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	display: block;
 	position: relative;
 	min-width: 100%;
