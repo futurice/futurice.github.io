@@ -13,7 +13,7 @@ projects:
       - title: Facegame
         github_repo_name: facegame
         description: facegame.md
-        screenshot: http://blog.futurice.com/wp-content/uploads/2014/06/image001.jpg
+        screenshot: http://flockler.com/thumbs/1992/image001_s830x0_q80_noupscale.jpg
       - title: Reservator
         github_repo_name: meeting-room-tablet
         description: reservator.md
@@ -21,11 +21,11 @@ projects:
       - title: VPN Management
         github_repo_name: vpn-management-server
         description: vpn-management.md
-        screenshot: http://blog.futurice.com/wp-content/uploads/2014/08/form-screenshot.png
+        screenshot: http://flockler.com/thumbs/1992/form-screenshot_s830x0_q80_noupscale.png
       - title: FUM
         github_repo_name: futurice-ldap-user-manager
         description: fum.md
-        screenshot: http://blog.futurice.com/wp-content/uploads/2014/09/Screenshot-2014-09-02-12.37.18.png
+        screenshot: http://flockler.com/thumbs/1992/screenshot-2014-09-02-12-37-18_s830x0_q80_noupscale.png
       - title: SUPER
         github_repo_name: futurice-super
         description: super.md
