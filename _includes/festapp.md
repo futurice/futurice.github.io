@@ -1,0 +1,2 @@
+General Purpose Festival Apps are to be used as a basis for a companion app for any event. The project includes apps for iOS, Android and Windows Phone. A backend providing data for the applications is a part of the project, but static JSON files can also be used as a data source. Detailed info for the project can be found from the [Festapp GitHub pages](http://futurice.github.io/festapp-server/) and [Futurice blog](http://blog.futurice.com/tag/ruisrock).
+
