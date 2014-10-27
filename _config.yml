@@ -40,3 +40,7 @@ projects:
         github_repo_name: android-best-practices
         description: android-best-practices.md
         screenshot: http://i.imgur.com/cJ5uRqs.png
+      - title: iOS Good Practices
+        github_repo_name: ios-good-practices
+        description: ios-good-practices.md
+        screenshot: http://i.imgur.com/VStsc7m.png
