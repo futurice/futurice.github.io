@@ -1,0 +1,1 @@
+A collection of good and battle-proven practices for creating iOS apps, curated by Futurice developers. While you can always choose to do things differently, this document provides valuable suggestions and shortcuts. Learn from our experiences with project setups, architectures, the build pipeline, diagnostics, and much more!
