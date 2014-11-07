@@ -18,6 +18,10 @@ projects:
         github_repo_name: ios-good-practices
         description: ios-good-practices.md
         screenshot: http://i.imgur.com/VStsc7m.png
+      - title: Windows apps development good practices
+        github_repo_name: win-client-dev-good-practices
+        description: win-app-dev-good-practices.md
+        screenshot: http://i.imgur.com/nEIoSWY.png  
   - category_name: Projects
     contains:
       - title: Facegame
