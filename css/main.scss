@@ -16,6 +16,7 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #f3f3f3;
 $brand-color:      #2a7ae2;
+$link-color:       #4c9018;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -107,8 +108,12 @@ body{
 
 	.title {
 		padding-left: 10px;
-		color: #4c9018;
+		color: $link-color;
 		padding-bottom: 10px;
+
+		a {
+			color: $link-color;
+		}
 	}
 
 	.github-icon {
@@ -130,27 +135,27 @@ body{
 
 .read-more {
 	a {
-		color: #4c9018;
+		color: $link-color;
 	}
 
 	a:hover {
-		color: #4c9018;
+		color: $link-color;
 	}
 }
 
 .read-less {
 	a {
-		color: #4c9018;
+		color: $link-color;
 	}
 
 	a:hover {
-		color: #4c9018;
+		color: $link-color;
 	}
 }
 
 .btn {
-	background-color: #4c9018 !important;
-	border-color: #4c9018 !important;
+	background-color: $link-color !important;
+	border-color: $link-color !important;
 
 	&:visited {
 		color: #fff;
@@ -176,11 +181,11 @@ body{
 	min-width: 100%;
 
 	a {
-		color: #4c9018;
+		color: $link-color;
 	}
 
 	a:hover {
-		color: #4c9018;
+		color: $link-color;
 	}
 
 	.header-text {
@@ -193,7 +198,7 @@ body{
 
 	.header-title {
 		margin-bottom: 30px;
-		color: #4c9018;
+		color: $link-color;
 	}
 }
 

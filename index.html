@@ -23,7 +23,7 @@ layout: default
       <img src="{{project.screenshot}}" class="img-responsive screenshot" />
     </div>
     <div class="col-sm-8 col-md-8 info">
-      <h1 class="title">{{project.title}}</h1>
+      <h1 class="title"><a href="https://github.com/futurice/{{project.github_repo_name}}">{{project.title}}</a></h1>
 
       {% capture description %}{% include {{project.description}} %}{% endcapture %}
       <div class="description wordwrap">{{ description | markdownify }}</div>
