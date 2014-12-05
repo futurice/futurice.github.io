@@ -48,3 +48,7 @@ projects:
         github_repo_name: festapp-server
         description: festapp.md
         screenshot: /images/festapp.png
+      - title: File Sharing
+        github_repo_name: file-sharing
+        description: file-sharing.md
+        screenshot: http://i.imgur.com/ywBRd9v.png
