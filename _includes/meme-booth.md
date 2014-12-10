@@ -1,0 +1,1 @@
+Meme booth is a service for creating and easily sharing "meme pics" based on real pics you take. You can also use it for example as selfie booth or red carpet cam with just minor modifications. Meme booth was originally developed for the #snapshot exhibition by the Finnish Museum of Photography.

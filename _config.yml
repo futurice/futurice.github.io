@@ -48,6 +48,10 @@ projects:
         github_repo_name: vpn-management-server
         description: vpn-management.md
         screenshot: http://flockler.com/thumbs/1992/form-screenshot_s830x0_q80_noupscale.png
+      - title: Meme Booth
+        github_repo_name: meme-booth
+        description: meme-booth.md
+        screenshot: https://raw.githubusercontent.com/futurice/meme-booth/master/setupImages/proto.jpg
       - title: File Sharing
         github_repo_name: file-sharing
         description: file-sharing.md
