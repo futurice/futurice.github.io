@@ -24,30 +24,30 @@ projects:
         screenshot: http://i.imgur.com/SVLexCO.png
   - category_name: Projects
     contains:
-      - title: Facegame
-        github_repo_name: facegame
-        description: facegame.md
-        screenshot: http://flockler.com/thumbs/1992/image001_s830x0_q80_noupscale.jpg
-      - title: Reservator
-        github_repo_name: meeting-room-tablet
-        description: reservator.md
-        screenshot: http://i.imgur.com/xd1xi09.jpg
-      - title: VPN Management
-        github_repo_name: vpn-management-server
-        description: vpn-management.md
-        screenshot: http://flockler.com/thumbs/1992/form-screenshot_s830x0_q80_noupscale.png
-      - title: FUM
-        github_repo_name: futurice-ldap-user-manager
-        description: fum.md
-        screenshot: http://flockler.com/thumbs/1992/screenshot-2014-09-02-12-37-18_s830x0_q80_noupscale.png
-      - title: SUPER
-        github_repo_name: futurice-super
-        description: super.md
-        screenshot: https://raw.githubusercontent.com/futurice/futurice-super/0dca6deb7cab00c32512772c8b63014105b65ba8/images/screenshot1.png
       - title: Festival Apps
         github_repo_name: festapp-server
         description: festapp.md
         screenshot: /images/festapp.png
+      - title: Reservator
+        github_repo_name: meeting-room-tablet
+        description: reservator.md
+        screenshot: http://i.imgur.com/xd1xi09.jpg
+      - title: SUPER
+        github_repo_name: futurice-super
+        description: super.md
+        screenshot: https://raw.githubusercontent.com/futurice/futurice-super/0dca6deb7cab00c32512772c8b63014105b65ba8/images/screenshot1.png
+      - title: Facegame
+        github_repo_name: facegame
+        description: facegame.md
+        screenshot: http://flockler.com/thumbs/1992/image001_s830x0_q80_noupscale.jpg
+      - title: FUM
+        github_repo_name: futurice-ldap-user-manager
+        description: fum.md
+        screenshot: http://flockler.com/thumbs/1992/screenshot-2014-09-02-12-37-18_s830x0_q80_noupscale.png
+      - title: VPN Management
+        github_repo_name: vpn-management-server
+        description: vpn-management.md
+        screenshot: http://flockler.com/thumbs/1992/form-screenshot_s830x0_q80_noupscale.png
       - title: File Sharing
         github_repo_name: file-sharing
         description: file-sharing.md
