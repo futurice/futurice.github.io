@@ -19,7 +19,7 @@ projects:
         description: ios-good-practices.md
         screenshot: http://i.imgur.com/VStsc7m.png
       - title: Windows apps development good practices
-        github_repo_name: win-client-dev-good-practices
+        github_repo_name: windows-app-development-best-practices
         description: win-app-dev-good-practices.md
         screenshot: http://i.imgur.com/SVLexCO.png
   - category_name: Projects
