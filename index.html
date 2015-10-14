@@ -20,7 +20,9 @@ layout: default
 {% for project in category.contains %}
   <div class="row row-no-padding project">
     <div class="col-sm-4 col-md-4 screenshot nopadding">
-      <img src="{{project.screenshot}}" class="img-responsive screenshot" />
+      <div class="img-container">
+        <img src="{{project.screenshot}}" class="project-img" />
+      </div>
     </div>
     <div class="col-sm-8 col-md-8 info">
       <h1 class="title"><a href="https://github.com/futurice/{{project.github_repo_name}}">{{project.title}}</a></h1>
