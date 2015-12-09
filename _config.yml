@@ -22,6 +22,10 @@ projects:
         github_repo_name: windows-app-development-best-practices
         description: win-app-dev-good-practices.md
         screenshot: http://i.imgur.com/SVLexCO.png
+      - title: Backend Best Practices
+        github_repo_name: backend-best-practices
+        description: backend-best-practices.md
+        screenshot: http://i.imgur.com/V8sjjMo.png
   - category_name: Projects
     contains:
       - title: Festival Apps
