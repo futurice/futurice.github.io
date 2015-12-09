@@ -1,0 +1,1 @@
+An evolving description of general best practices for backend development. Instead of specific framework recommendations or configuration examples, we focus on principles that matter the most, covering topics such as data persistence, security, releasing, and application monitoring.
