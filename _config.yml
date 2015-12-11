@@ -28,8 +28,8 @@ projects:
         screenshot: http://i.imgur.com/V8sjjMo.png
   - category_name: Projects
     contains:
-      - title: Festival Apps
-        github_repo_name: festapp-server
+      - title: Festapp
+        github_repo_name: festapp
         description: festapp.md
         screenshot: /images/festapp.png
       - title: Reservator
