@@ -22,6 +22,9 @@ A project has 4 properties:
 Running the site locally
 ------------------------
 
+Install [Jekyll](http://jekyllrb.com/):  
+`gem install jekyll`
+
 Install [Bundler](http://bundler.io/):  
 `gem install bundler`
 
