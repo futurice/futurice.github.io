@@ -28,6 +28,10 @@ projects:
         screenshot: http://i.imgur.com/V8sjjMo.png
   - category_name: Projects
     contains:
+      - title: Pepperoni
+        github_repo_name: pepperoni-app-kit
+        description: pepperoni.md
+        screenshot: http://i.imgur.com/kVF2BdB.png
       - title: Festapp
         github_repo_name: festapp
         description: festapp.md
