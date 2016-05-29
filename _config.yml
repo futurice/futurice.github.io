@@ -32,6 +32,10 @@ projects:
         github_repo_name: pepperoni-app-kit
         description: pepperoni.md
         screenshot: http://i.imgur.com/kVF2BdB.png
+      - title: Vör
+        github_repo_name: vor
+        description: vor.md
+        screenshot: http://i.imgur.com/LONNc9O.png
       - title: Festapp
         github_repo_name: festapp
         description: festapp.md

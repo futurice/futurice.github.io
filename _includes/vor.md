@@ -1,0 +1,1 @@
+Vör is an open source tool that offers a new kind of smart office experience by creating seamless connections between people within an office space. It provides relevant information about your surroundings - who is near you, temperature, workspace availability. Vör knows all this and much more.
